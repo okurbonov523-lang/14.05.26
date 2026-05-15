@@ -55,6 +55,10 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 /warnaserror+:NU1605,SYSLIB0011
 
 [sourceFiles]
+Controllers/CarController.cs
+MiddleWared/
+ ExceptionMiddleware.cs
+ LoginMiddleWare.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
  WebApi.AssemblyInfo.cs
@@ -390,6 +394,8 @@ Program.cs
  serilog.sinks.file/7.0.0/lib/net9.0/Serilog.Sinks.File.dll
  serilog/4.3.0/lib/net9.0/Serilog.dll
  swashbuckle.aspnetcore.swagger/10.1.7/lib/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+ swashbuckle.aspnetcore.swaggergen/10.1.7/lib/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+ swashbuckle.aspnetcore.swaggerui/10.1.7/lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 
 [analyzerReferences]
 <DOTNET>/packs/Microsoft.AspNetCore.App.Ref/10.0.2/analyzers/dotnet/cs/

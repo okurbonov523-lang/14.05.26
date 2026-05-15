@@ -16,7 +16,7 @@ public class DataContext(Logger<DataContext> logger)
         }
         catch (System.Exception)
         {
-            
+         logger.LogError("eror while opening connection"); 
             throw;
         }
     }
